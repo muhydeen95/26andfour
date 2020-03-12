@@ -16,10 +16,10 @@
                <img class="logo" src="../images/logo.svg" alt="logo">
             </a>
             <nav>
-                <a href="#">
+                <a href="#" id="js-navbar-toggle">
                     <img src="../images/ham.svg" class="menu hide-desktop" id="menu" alt="toggle menu">
                 </a>
-                <ul class="hide-menu show-desktop">
+                <ul class="hide-menu show-desktop" id="js-menu">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -111,14 +111,13 @@
     </footer>
     
    <script>
-        function myFunction() {
-          var x = document.getElementByClass("hide-menu");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+
+            mainNav.classList.toggle('active');
+        });
     </script>
 </body>
 </html>
