@@ -12,14 +12,40 @@
     
     <div class="container">
         <header>
-           <a href="#">
+            
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <a href="#">
+                   <img class="logo" src="../images/logo.svg" alt="logo">
+                </a>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="#" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Products</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+           <!--<a href="#">
                <img class="logo" src="../images/logo.svg" alt="logo">
             </a>
             <nav>
-                <a href="#" id="js-navbar-toggle">
+                <a href="#"">
                     <img src="../images/ham.svg" class="menu hide-desktop" id="menu" alt="toggle menu">
                 </a>
-                <ul class="hide-menu show-desktop" id="js-menu">
+                <ul class="hide-menu show-desktop">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -33,7 +59,7 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-            </nav>
+            </nav>-->
         </header>
 
         <section>
@@ -115,8 +141,7 @@
         let navBarToggle = document.getElementById('js-navbar-toggle');
 
         navBarToggle.addEventListener('click', function () {
-
-            mainNav.classList.toggle('active');
+          mainNav.classList.toggle('active');
         });
     </script>
 </body>
