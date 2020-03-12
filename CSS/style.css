@@ -62,6 +62,8 @@ header{
         .main-nav {
             list-style-type: none;
             display: none;
+            background: grey;
+            padding: 10px;
         }
 
         .nav-links{
@@ -70,7 +72,7 @@ header{
         }
 
         .main-nav li {
-            text-align: center;
+            text-align: left;
             margin: 10px auto;
         }
 
@@ -259,6 +261,8 @@ footer nav ul a:hover{
                 margin-right: 30px;
                 flex-direction: row;
                 justify-content: flex-end;
+                background: none;
+                        
             }
 
             .main-nav li {
