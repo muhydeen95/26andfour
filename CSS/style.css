@@ -217,7 +217,7 @@ a.cta{
     font-size: .8em;
 }
 
-nav ul{
+footer nav ul{
     position: fixed;
     z-index: 3;
     top: 0;
@@ -229,7 +229,7 @@ nav ul{
     padding: 3em;
 }
 
-nav ul a{
+footer nav ul a{
     color: #fff;
     text-decoration: none;
     display: block;
@@ -239,7 +239,7 @@ nav ul a{
     padding: 1em 2em ;
 }
 
-nav ul a:hover{
+footer nav ul a:hover{
     background-color: rgb(65, 73, 78);
     cursor: pointer;    
 }
