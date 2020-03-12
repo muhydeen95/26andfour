@@ -71,7 +71,7 @@ header{
 
         .main-nav li {
             text-align: center;
-            margin: 15px auto;
+            margin: 10px auto;
         }
 
         /*.logo {
@@ -275,11 +275,6 @@ footer nav ul a:hover{
 
             .navbar-toggle {
                 display: none;
-            }
-
-            .logo:hover,
-            .nav-links:hover {
-                color: rgba(255, 255, 255, 1);
             }
         }
     /*nav style ends*/
